@@ -9,7 +9,9 @@
     "lint": "eslint src --color",
     "test:coverage": "react-scripts test --coverage",
     "format:check": "prettier --check \"src/**/*.{js,jsx,json,ts,tsx,scss,md}\"",
-    "format": "prettier --write \"src/**/*.{js,jsx,json,ts,tsx,scss,md}\" "
+    "format": "prettier --write \"src/**/*.{js,jsx,json,ts,tsx,scss,md}\" ",
+    "requirements-check": "node check-node-version.js",
+    "postinstall": "npm run requirements-check"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
@@ -21,6 +23,7 @@
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "semver": "^7.3.5",
     "web-vitals": "^0.2.4"
   },
   "devDependencies": {
@@ -76,6 +79,10 @@
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": "eslint",
     "src/**/*.{js,jsx,json,ts,tsx,scss,md}": "prettier --write"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=14.15.4"
   },
   "browserslist": {
     "production": [
