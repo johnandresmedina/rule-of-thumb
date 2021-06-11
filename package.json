@@ -14,9 +14,6 @@
     "postinstall": "npm run requirements-check"
   },
   "dependencies": {
-    "@material-ui/core": "^4.11.4",
-    "@material-ui/icons": "^4.11.2",
-    "fontsource-roboto": "^3.1.5",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",

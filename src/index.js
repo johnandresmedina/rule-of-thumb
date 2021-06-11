@@ -1,20 +1,12 @@
-import 'fontsource-roboto';
-
 import React from 'react';
 import { render } from 'react-dom';
-import { ThemeProvider } from '@material-ui/core/styles';
-import CssBaseline from '@material-ui/core/CssBaseline';
 
 import reportWebVitals from './reportWebVitals';
 import Main from './main/Main';
-import theme from './theme';
 
 render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Main />
-    </ThemeProvider>
+    <Main />
   </React.StrictMode>,
   document.getElementById('root'),
 );
