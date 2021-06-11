@@ -1,12 +1,12 @@
 import Layout from '../layout/Layout';
-import App from '../app/App';
+import Header from '../header/Header';
 
 import './main.scss';
 
 const Main = () => {
   return (
     <Layout>
-      <App />
+      <Header />
     </Layout>
   );
 };

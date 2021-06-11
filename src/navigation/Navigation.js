@@ -1,6 +1,10 @@
-import searchIcon from './search.svg';
+import searchIcon from '../assets/img/search.svg';
 
 const Navigation = () => {
+  const onSeachHandler = event => {
+    event.preventDefault();
+  };
+
   return (
     <nav className='nav' role='navigation'>
       <div className='max-centered'>
@@ -21,7 +25,7 @@ const Navigation = () => {
             <a href='/login'>Login / Sign Up</a>
           </li>
           <li>
-            <form action='javascript:void(0)'>
+            <form onSubmit={onSeachHandler}>
               <input className='nav__search-input' aria-label='search' type='text' />
               <button className='nav__search icon-button' alt='Search' type='submit'>
                 <img src={searchIcon} alt='search' />
