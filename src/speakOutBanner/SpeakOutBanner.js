@@ -1,3 +1,5 @@
+import './speakOutBanner.scss';
+
 const SpeakOutBanner = () => {
   return (
     <aside className='banner banner-top' role='doc-tip' aria-label='Speak Out'>

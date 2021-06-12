@@ -1,6 +1,8 @@
 import backgroundPeople from '../assets/img/bg-people.png';
 import backgroundPeople2x from '../assets/img/bg-people.@2x.png';
 
+import './submitNameBanner.scss';
+
 const SubmitNameBanner = () => {
   return (
     <aside className='banner banner-bottom' role='doc-tip' aria-label='Submit a name'>

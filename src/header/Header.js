@@ -3,6 +3,8 @@ import popeFrancisImage2x from '../assets/img/pope-francis.@2x.png';
 import thumbsUp from '../assets/img/thumbs-up.svg';
 import thumbsDown from '../assets/img/thumbs-down.svg';
 
+import './header.scss';
+
 const Header = () => {
   return (
     <header className='hero'>
