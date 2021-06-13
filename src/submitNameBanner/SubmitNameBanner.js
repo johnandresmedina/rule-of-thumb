@@ -1,5 +1,5 @@
-import backgroundPeople from '../assets/img/bg-people.png';
-import backgroundPeople2x from '../assets/img/bg-people.@2x.png';
+import backgroundPeople from 'assets/img/bg-people.png';
+import backgroundPeople2x from 'assets/img/bg-people.@2x.png';
 
 import './submitNameBanner.scss';
 

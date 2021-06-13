@@ -1,8 +1,8 @@
-import Layout from '../layout/Layout';
-import Header from '../header/Header';
-import SpeakOutBanner from '../speakOutBanner/SpeakOutBanner';
-import SubmitNameBanner from '../submitNameBanner/SubmitNameBanner';
-import Footer from '../footer/Footer';
+import Layout from 'layout/Layout';
+import Header from 'header/Header';
+import SpeakOutBanner from 'speakOutBanner/SpeakOutBanner';
+import SubmitNameBanner from 'submitNameBanner/SubmitNameBanner';
+import Footer from 'footer/Footer';
 
 import './main.scss';
 

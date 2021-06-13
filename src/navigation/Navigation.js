@@ -1,4 +1,4 @@
-import searchIcon from '../assets/img/search.svg';
+import searchIcon from 'assets/img/search.svg';
 import './navigation.scss';
 
 const Navigation = () => {

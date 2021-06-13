@@ -1,7 +1,7 @@
-import popeFrancisImage from '../assets/img/pope-francis.png';
-import popeFrancisImage2x from '../assets/img/pope-francis.@2x.png';
-import thumbsUp from '../assets/img/thumbs-up.svg';
-import thumbsDown from '../assets/img/thumbs-down.svg';
+import popeFrancisImage from 'assets/img/pope-francis.png';
+import popeFrancisImage2x from 'assets/img/pope-francis.@2x.png';
+import thumbsUp from 'assets/img/thumbs-up.svg';
+import thumbsDown from 'assets/img/thumbs-down.svg';
 
 import './header.scss';
 
